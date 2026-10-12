@@ -1,0 +1,13 @@
+services:
+  router-evaluator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-router-evaluator
+    environment:
+      - PYTHONUNBUFFERED=1
+      - USE_OPENAI=false
+    volumes:
+      - ./output:/app/output
+      - ./results:/app/results
+    restart: "no"

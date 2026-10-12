@@ -1,0 +1,60 @@
+{"id": 1, "request": "Book a flight from JFK to LHR on 2024-11-15.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 2, "request": "Search flights from SFO to NRT departing on 2025-01-20.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 3, "request": "Find me a flight from MIA to JFK on 2024-10-10.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 4, "request": "Fly from ORD to CDG on 2024-12-05.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 5, "request": "Book a plane ticket from LAX to SYD on 2025-03-12.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 6, "request": "Find flights from BOS to DUB on 2024-11-01.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 7, "request": "Search flight from SEA to HNL on 2024-12-25.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 8, "request": "Book a flight from DXB to SIN on 2025-02-14.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 9, "request": "Schedule a meeting titled Team Sync on 2024-10-15T10:00:00 for 30 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 10, "request": "Book a calendar event called Project Kickoff on 2024-11-01T14:00:00 with duration 60 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 11, "request": "Create an appointment for Dental Checkup on 2024-10-25T09:30:00 for 45 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 12, "request": "Schedule a sync for Q4 Planning on 2024-12-02T11:00:00 lasting 90 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 13, "request": "Book a meeting named Architecture Review on 2024-10-18T15:00:00 for 60 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 14, "request": "Schedule a call for Interview Session on 2024-11-10T16:00:00 with duration 45 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 15, "request": "Book an event titled Budget Discussion on 2024-11-20T13:00:00 for 30 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 16, "request": "What is the weather in Tokyo in C?", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 17, "request": "Get current temperature in London in C.", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 18, "request": "Check weather forecast for Miami in F.", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 19, "request": "How hot is it in Paris in Celsius?", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 20, "request": "Lookup weather in Seattle in F.", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 21, "request": "What is the weather forecast for Berlin in C?", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 22, "request": "Check temperature in Sydney in C.", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 23, "request": "Get weather for Chicago in F.", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 24, "request": "Convert 100 km to miles.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 25, "request": "Convert 50 miles to km.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 26, "request": "Unit conversion: convert 25 C to F.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 27, "request": "Convert 10 kg to lbs.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 28, "request": "Convert 150 lbs to kg.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 29, "request": "Convert 500 meters to feet.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 30, "request": "Convert 26.2 miles into kilometers.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 31, "request": "Convert 75 F to C.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 32, "request": "Find flights from AMS to MAD on 2025-04-10.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 33, "request": "Schedule a meeting for Weekly 1-on-1 on 2024-11-05T10:00:00 for 30 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 34, "request": "What is the temperature in Toronto in C?", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 35, "request": "Book a flight from Mumbai to Delhi on 2026-10-15.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 36, "request": "Book a flight to Paris departing from London on 2024-12-01.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 37, "request": "Book a flight from Mumbai to Delhi.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 38, "request": "Find plane tickets to Rome from Boston.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 39, "request": "Schedule a meeting titled Sprint Review on 2024-10-30T15:00:00.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 40, "request": "Get weather for Honolulu.", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 41, "request": "Convert 15 from km to miles.", "expected_tool": "UnitConversion", "injected_fault": "NONE"}
+{"id": 42, "request": "Book a flight from JFK to LHR tomorrow.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 43, "request": "Fly from LAX to SFO next Tuesday.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 44, "request": "Search flights from ORD to MIA next week.", "expected_tool": "FlightSearch", "injected_fault": "NONE"}
+{"id": 45, "request": "Schedule a meeting titled Client Demo tomorrow at 10am for 45 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 46, "request": "Schedule a sync titled Standup on 2024-10-15T09:00:00 for string_duration 1 hour.", "expected_tool": "CalendarBooking", "injected_fault": "NONE"}
+{"id": 47, "request": "What is the temperature in Denver with unit: celsius?", "expected_tool": "WeatherLookup", "injected_fault": "NONE"}
+{"id": 48, "request": "Book a flight from ATL to LGA on 2024-11-20.", "expected_tool": "FlightSearch", "injected_fault": "TIMEOUT"}
+{"id": 49, "request": "Get current weather in Tokyo in C.", "expected_tool": "WeatherLookup", "injected_fault": "TIMEOUT"}
+{"id": 50, "request": "Schedule a meeting titled Sync on 2024-12-01T10:00:00 for 30 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "TIMEOUT"}
+{"id": 51, "request": "Convert 42 km to miles.", "expected_tool": "UnitConversion", "injected_fault": "TIMEOUT"}
+{"id": 52, "request": "Check the temperature in Vancouver in C.", "expected_tool": "WeatherLookup", "injected_fault": "TIMEOUT"}
+{"id": 53, "request": "Find flights from DFW to SEA on 2025-01-15.", "expected_tool": "FlightSearch", "injected_fault": "TIMEOUT"}
+{"id": 54, "request": "Find a flight from JFK to CDG on 2024-12-10.", "expected_tool": "FlightSearch", "injected_fault": "MALFORMED_RESPONSE"}
+{"id": 55, "request": "What is the weather in Singapore in C?", "expected_tool": "WeatherLookup", "injected_fault": "MALFORMED_RESPONSE"}
+{"id": 56, "request": "Schedule a calendar booking for Design Sprint on 2024-10-22T09:00:00 for 60 minutes.", "expected_tool": "CalendarBooking", "injected_fault": "MALFORMED_RESPONSE"}
+{"id": 57, "request": "Convert 120 lbs to kg.", "expected_tool": "UnitConversion", "injected_fault": "MALFORMED_RESPONSE"}
+{"id": 58, "request": "Get current temperature in Dallas in F.", "expected_tool": "WeatherLookup", "injected_fault": "MALFORMED_RESPONSE"}
+{"id": 59, "request": "Book a flight from SFO to JFK on 2024-11-11.", "expected_tool": "FlightSearch", "injected_fault": "TIMEOUT_PERSISTENT"}
+{"id": 60, "request": "What is the weather in Dublin in C?", "expected_tool": "WeatherLookup", "injected_fault": "MALFORMED_PERSISTENT"}
